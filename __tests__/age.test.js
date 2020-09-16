@@ -1,4 +1,4 @@
-import Age from './age.js';
+import Age from './../src/age.js';
 
 describe('Age', () => {
 
@@ -6,4 +6,4 @@ describe('Age', () => {
     const earthInput = new Age(50);
     expect(this.earthInput).toEqual(50);
     });
-  })
+  })   

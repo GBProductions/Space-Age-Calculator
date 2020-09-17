@@ -1,8 +1,18 @@
+export function Space(earth, mercury, venus, mars, jupiter) {
+  this.earth = earth;
+  this.mercury = mercury;
+  this.venus = venus;
+  this.mars = mars;
+  this.jupiter = jupiter;
+}
+
+
 export class Age {
   constructor (userInput, planetYears) {
     this.userInput = userInput;
     this.planetYears = planetYears
   }
+
 }
 
 export class MercuryAge {

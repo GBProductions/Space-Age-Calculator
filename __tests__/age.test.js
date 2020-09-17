@@ -1,8 +1,20 @@
-import { Age, MercuryAge, VenusAge, MarsAge, JupiterAge, MercuryLifeExpect } from './../src/age.js';
+import { Space, Age, MercuryAge, VenusAge, MarsAge, JupiterAge, MercuryLifeExpect } from './../src/age.js';
+
+describe('Space', () => {
+  test('Space', () => {
+    const age = new Space(1, 0.24, 0.62, 1.88, 11.86);
+    expect(age.earth).toEqual(1);
+    expect(age.mercury).toEqual(0.24);
+    expect(age.venus).toEqual(0.62);
+    expect(age.mars).toEqual(1.88);
+    expect(age.jupiter).toEqual(11.86);
+  });
+});
 
 
-describe('EarthAge', () => {
 
+
+describe('Age', () => {
   test('should return user age in Earth years', () => {
     const age = new Age(50);
     expect(age.userInput).toEqual(50);

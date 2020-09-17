@@ -44,6 +44,22 @@ export class JupiterAge {
     return (this.userInput * this.planetAge)
   }
 }
+
+
+
+
+export class MercuryLifeExpect {
+  constructor (userInput, planetAge, lifeExpectancy) {
+    this.userInput = userInput;
+    this.planetAge = planetAge;
+    this.lifeExpectancy = lifeExpectancy;
+  }
+  findYearsLeft(){
+    return ((this.lifeExpectancy * this.planetAge)
+    - (this.userInput * this.planetAge))
+  }
+}
+
 /*
   calculate() {
     if (planetYears = Mercury) {

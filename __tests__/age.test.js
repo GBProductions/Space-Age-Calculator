@@ -1,4 +1,4 @@
-import { Age, Mercuryage, Venusage } from './../src/age.js';
+import { Age, MercuryAge, VenusAge } from './../src/age.js';
 
 
 describe('EarthAge', () => {
@@ -11,14 +11,14 @@ describe('EarthAge', () => {
 
 describe('Mercuryage', () => {
   test ('findAge will take the users age and return it in Mercury years', () => {
-    let age = new Mercuryage(100, 0.24);
+    let age = new MercuryAge(100, 0.24);
     expect (age.findAge()).toEqual(24);
   });
 });
 
 describe('Venusage', () => {
   test ('findAge will take the users age and return it in Venus years', () => {
-    let age = new Venusage();
+    let age = new VenusAge();
     expect (age.findAge()).toEqual();
   });
 });

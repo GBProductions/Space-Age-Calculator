@@ -5,7 +5,7 @@ export class Age {
   }
 }
 
-export class Mercuryage {
+export class MercuryAge {
   constructor (userInput, planetAge){
     this.userInput = userInput;
     this.planetAge = planetAge;
@@ -15,7 +15,7 @@ export class Mercuryage {
   }
 }
 
-export class Venusage {
+export class VenusAge {
   constructor (userInput, planetAge){
     this.userInput = userInput;
     this.planetAge = planetAge;

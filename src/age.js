@@ -25,7 +25,15 @@ export class VenusAge {
   }
 }
 
-
+export class MarsAge {
+  constructor (userInput, planetAge){
+    this.userInput = userInput;
+    this.planetAge = planetAge;
+  }
+  findAge(){
+    return (this.userInput * this.planetAge)
+  }
+}
 
 
 /*

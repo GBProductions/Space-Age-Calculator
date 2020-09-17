@@ -44,7 +44,7 @@ describe('JupiterAge', () => {
 
 describe('MercuryLifeExpect', () => {
   test ('findYearsLater will take the user Life Expectancy and minus their age', () => {
-    let age = new MercuryLifeExpect();
-    expect (age.findYearsLeft()).toEqual();
+    let age = new MercuryLifeExpect(100, 0.24, 200);
+    expect (age.findYearsLeft()).toEqual(24);
   });
 });

@@ -18,7 +18,7 @@ describe('Mercuryage', () => {
 
 describe('Venusage', () => {
   test ('findAge will take the users age and return it in Venus years', () => {
-    let age = new Venusage(100, 0.62);
-    expect (age.findAge()).toEqual(62);
+    let age = new Venusage();
+    expect (age.findAge()).toEqual();
   });
 });

@@ -6,12 +6,22 @@ export class Age {
 }
 
 export class Mercuryage {
-  constructor (earthInput, planetAge){
-  this.earthInput = earthInput;
-  this.planetAge = planetAge;
-}
+  constructor (userInput, planetAge){
+    this.userInput = userInput;
+    this.planetAge = planetAge;
+  }
   findAge(){
-    return (this.earthInput * this.planetAge)
+    return (this.userInput * this.planetAge)
+  }
+}
+
+export class Venusage {
+  constructor (userInput, planetAge){
+    this.userInput = userInput;
+    this.planetAge = planetAge;
+  }
+  findAge(){
+    return (this.userInput * this.planetAge)
   }
 }
 
@@ -38,11 +48,11 @@ let Jupiter = 11.86
 
 /*
 export class Mercuryage {
-  constructor (earthInput, planetAge){
-  this.earthInput = earthInput;
+  constructor (userInput, planetAge){
+  this.userInput = userInput;
   this.planetAge = planetAge;
 }
   findAge(){
-    return (this.earthInput * this.planetAge)
+    return (this.userInput * this.planetAge)
   }
 }*/

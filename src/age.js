@@ -1,9 +1,12 @@
-export function Space(earth, mercury, venus, mars, jupiter) {
-  this.earth = earth;
-  this.mercury = mercury;
-  this.venus = venus;
-  this.mars = mars;
-  this.jupiter = jupiter;
+export class Space {
+  constructor (earth, mercury, venus, mars, jupiter) {
+    this.earth = earth;
+    this.mercury = mercury;
+    this.venus = venus;
+    this.mars = mars;
+    this.jupiter = jupiter;
+  }
+
 }
 
 
@@ -12,8 +15,19 @@ export class Age {
     this.userInput = userInput;
     this.planetYears = planetYears
   }
-
+  calculate () {
+    if (planetYears = "Mercury") {
+      return (userInput * 0.24)
+    } else if (planetYears = "Venus") {
+      return (userInput * 0.62)
+    } else if (planetYears = "Mars") {
+      return (userInput * 1.88)
+    } else if (planetYears = "Jupiter") {
+      return (userInput * 11.86)
+    }
+  }
 }
+
 
 export class MercuryAge {
   constructor (userInput, planetAge){
@@ -69,17 +83,3 @@ export class MercuryLifeExpect {
     - (this.userInput * this.planetAge))
   }
 }
-
-/*
-  calculate() {
-    if (planetYears = Mercury) {
-      return "old"
-    } else if (planetYears = Venus) {
-      return "older"
-    } else if (planetYears = Mars) {
-      return "oldest"
-    } else if (planetYears = Jupiter) {
-      return "oldy oldy"
-    }
-  }
-*/

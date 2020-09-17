@@ -35,13 +35,16 @@ export class MarsAge {
   }
 }
 
-
+export class JupiterAge {
+  constructor (userInput, planetAge){
+    this.userInput = userInput;
+    this.planetAge = planetAge;
+  }
+  findAge(){
+    return (this.userInput * this.planetAge)
+  }
+}
 /*
-let Mercury = 0.24
-let Venus = 0.62
-let Mars = 1.88
-let Jupiter = 11.86
-
   calculate() {
     if (planetYears = Mercury) {
       return "old"
@@ -53,14 +56,4 @@ let Jupiter = 11.86
       return "oldy oldy"
     }
   }
-
-/*
-export class Mercuryage {
-  constructor (userInput, planetAge){
-  this.userInput = userInput;
-  this.planetAge = planetAge;
-}
-  findAge(){
-    return (this.userInput * this.planetAge)
-  }
-}*/
+*/

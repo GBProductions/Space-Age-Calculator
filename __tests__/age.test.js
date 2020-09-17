@@ -1,4 +1,4 @@
-import { Age, MercuryAge, VenusAge, MarsAge } from './../src/age.js';
+import { Age, MercuryAge, VenusAge, MarsAge, JupiterAge } from './../src/age.js';
 
 
 describe('EarthAge', () => {
@@ -27,5 +27,13 @@ describe('MarsAge', () => {
   test ('findAge will take the users age and return it in Mars years', () => {
     let age = new MarsAge(100, 1.88);
     expect (age.findAge()).toEqual(188);
+  });
+});
+
+
+describe('JupiterAge', () => {
+  test ('findAge will take the users age and return it in Mars years', () => {
+    let age = new JupiterAge(100, 11.86);
+    expect (age.findAge()).toEqual(1186);
   });
 });

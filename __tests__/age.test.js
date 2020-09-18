@@ -47,4 +47,10 @@ describe('Age', () => {
     age.marsLifeExpectancy()
     expect(age.marslife).toEqual(188);
   })
+
+  test('should return remaining time expected to live on Jupiter, subtracting life lived from life expectancy', () => {
+    const age = new Age(100, 200);
+    age.jupiterLifeExpectancy()
+    expect(age.jupiterlife).toEqual();
+  })
 });

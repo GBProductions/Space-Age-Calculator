@@ -39,7 +39,7 @@ describe('Age', () => {
   test('should return remaining time expected to live on Venus, subtracting life lived from life expectancy', () => {
     const age = new Age(100, 200);
     age.venusLifeExpectancy()
-    expect(age.venuslife).toEqual();
+    expect(age.venuslife).toEqual(62);
   })
 
 });

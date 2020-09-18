@@ -30,6 +30,11 @@ describe('Age', () => {
     expect(age.jupiter).toEqual(1186);
   })
 
+  test('should return remaining time expected to live on Mercury, subtracting life lived from life expectancy', () => {
+    const age = new Age(100);
+    age.mercuryLifeExpectancy()
+    expect(age.mercurylife).toEqual();
+  })
 
 
 });

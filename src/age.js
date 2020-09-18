@@ -40,49 +40,6 @@ export class Age {
 }
 
 
-export class MercuryAge {
-  constructor (userInput, planetAge){
-    this.userInput = userInput;
-    this.planetAge = planetAge;
-  }
-  findAge(){
-    return (this.userInput * this.planetAge)
-  }
-}
-
-export class VenusAge {
-  constructor (userInput, planetAge){
-    this.userInput = userInput;
-    this.planetAge = planetAge;
-  }
-  findAge(){
-    return (this.userInput * this.planetAge)
-  }
-}
-
-export class MarsAge {
-  constructor (userInput, planetAge){
-    this.userInput = userInput;
-    this.planetAge = planetAge;
-  }
-  findAge(){
-    return (this.userInput * this.planetAge)
-  }
-}
-
-export class JupiterAge {
-  constructor (userInput, planetAge){
-    this.userInput = userInput;
-    this.planetAge = planetAge;
-  }
-  findAge(){
-    return (this.userInput * this.planetAge)
-  }
-}
-
-
-
-
 export class MercuryLifeExpect {
   constructor (userInput, planetAge, lifeExpectancy) {
     this.userInput = userInput;

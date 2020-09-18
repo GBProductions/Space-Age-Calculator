@@ -21,26 +21,15 @@ describe('Age', () => {
   test('should take user age in Earth years and return in Mars years', () => {
     const age = new Age(100);
     age.marsAge()
-    expect(age.mars).toEqual();
+    expect(age.mars).toEqual(188);
   })
 
   test('should take user age in Earth years and return in Jupiter years', () => {
     const age = new Age(100);
     age.jupiterAge()
-    expect(age.jupiter).toEqual();
+    expect(age.jupiter).toEqual(1186);
   })
 
 
 
 });
-
-/*
-
-describe('MercuryLifeExpect', () => {
-  test ('findYearsLater will take the user Life Expectancy and minus their age', () => {
-    let age = new MercuryLifeExpect(100, 0.24, 200);
-    expect (age.findYearsLeft()).toEqual(24);
-  });
-});
-
-*/

@@ -45,6 +45,6 @@ describe('Age', () => {
   test('should return remaining time expected to live on Mars, subtracting life lived from life expectancy', () => {
     const age = new Age(100, 200);
     age.marsLifeExpectancy()
-    expect(age.marslife).toEqual();
+    expect(age.marslife).toEqual(188);
   })
 });

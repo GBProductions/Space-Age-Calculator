@@ -1,27 +1,12 @@
 # _Super Galactic Age Calculator_
 
-#### _16th September 2020_
+#### _18th September 2020_
 
 #### By _**Garrett Brown**_
 
 ## Description
 Want to know how old you are on other planets in the solar system? Use this calculator. We can also tell you how much life you would expect to live on those planets based on personality questions. Absolutely scientifically accurate.
 
-SPECS 
-<--------------------------------------------------------------------------------------------------------
-
-Basic
-
-Test: If a user enters something that is not a number into the input box, an error prompt will appear.
-  Input: "Hello World!"
-  Output: Alert: "Please enter a number!"
-
-Test: If a user does not answer the 3 LIFE EXPECTANCY CALCULATOR questions and insert a valid number into the input box, 
-  an error alert will appear.
-  Input: "42" (No questions answered).
-  Output: Alert: "Please answer all the questions!"
-
-<-------------------------------------------------------------------------------------------------------------
 
 User 
 

@@ -1,7 +1,7 @@
 import { Age } from './../src/age.js';
 
 describe('Age', () => {
-  test('should return every planets year equivalent in Earth years', () => {
+  test('should return users age in Earth years', () => {
     const age = new Age();
     expect(age.earth).toEqual();
   })
@@ -31,10 +31,15 @@ describe('Age', () => {
   })
 
   test('should return remaining time expected to live on Mercury, subtracting life lived from life expectancy', () => {
-    const age = new Age(100);
+    const age = new Age(100, 200);
     age.mercuryLifeExpectancy()
-    expect(age.mercurylife).toEqual();
+    expect(age.mercurylife).toEqual(24);
   })
 
+  test('should return remaining time expected to live on Venus, subtracting life lived from life expectancy', () => {
+    const age = new Age(100, 200);
+    age.venusLifeExpectancy()
+    expect(age.venuslife).toEqual();
+  })
 
 });

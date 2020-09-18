@@ -5,11 +5,12 @@ export class Age {
     mercuryAge() {
       this.mercury = this.earth * 0.24
     }
-
     venusAge() {
       this.venus = this.earth * 0.62
     }
-
+    marsAge() {
+      this.mars = this.earth * 0.1.88
+    }
 }
 
 /*

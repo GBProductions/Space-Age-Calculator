@@ -1,19 +1,26 @@
 export class Space {
-  constructor (earth, mercury, venus, mars, jupiter) {
+  constructor (earth) {
     this.earth = earth;
-    this.mercury = mercury;
-    this.venus = venus;
-    this.mars = mars;
-    this.jupiter = jupiter;
   }
+    mercuryAge() {
+      this.mercury = this.earth * 0.24
+    }
+
+    venusAge() {
+      return this.earth * 0.62
+    }
 
 }
 
 
 export class Age {
-  constructor (userInput, planetYears) {
+  constructor (userInput, planetYears, mercury, venus, mars, jupiter) {
     this.userInput = userInput;
     this.planetYears = planetYears
+    this.mercury = mercury;
+    this.venus = venus;
+    this.mars = mars;
+    this.jupiter = jupiter;
   }
   calculate () {
     if (planetYears = "Mercury") {

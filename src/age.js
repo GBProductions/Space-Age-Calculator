@@ -9,7 +9,7 @@ export class Age {
       this.venus = this.earth * 0.62
     }
     marsAge() {
-      this.mars = this.earth * 0.1.88
+      this.mars = this.earth * 1.88
     }
 }
 

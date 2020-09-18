@@ -1,4 +1,4 @@
-export class Space {
+export class Age {
   constructor (earth) {
     this.earth = earth;
   }
@@ -7,12 +7,12 @@ export class Space {
     }
 
     venusAge() {
-      return this.earth * 0.62
+      this.venus = this.earth * 0.62
     }
 
 }
 
-
+/*
 export class Age {
   constructor (userInput, planetYears, mercury, venus, mars, jupiter) {
     this.userInput = userInput;
@@ -90,3 +90,4 @@ export class MercuryLifeExpect {
     - (this.userInput * this.planetAge))
   }
 }
+*/

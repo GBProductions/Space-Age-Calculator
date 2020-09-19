@@ -69,6 +69,6 @@ describe('Age', () => {
   test('should return number of years lived past Mars life expectancy', () => {
     const age = new Age(150, 100);
     age.marsLifePast()
-    expect(age.marslife).toEqual();
+    expect(age.marslife).toEqual(94);
   })
 });

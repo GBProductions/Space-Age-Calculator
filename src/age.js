@@ -37,7 +37,7 @@ export class Age {
       this.marslife = Math.abs((this.earthLifeExpectancy * 1.88) - (this.earth * 1.88))
     }
     jupiterLifePast() {
-      this.jupiterlife = (this.earthLifeExpectancy * 11.86) - (this.earth * 11.86)
+      this.jupiterlife = Math.abs((this.earthLifeExpectancy * 11.86) - (this.earth * 11.86))
     }
 
 }

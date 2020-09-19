@@ -56,7 +56,13 @@ describe('Age', () => {
 
   test('should return number of years lived past Mercury life expectancy', () => {
     const age = new Age(150, 100);
-    age.mercuryLifeExpectancyPast()
-    expect(age.mercurylife).toEqual();
+    age.mercuryLifePast()
+    expect(age.mercurylife).toEqual(12);
+  })
+
+  test('should return number of years lived past Venus life expectancy', () => {
+    const age = new Age(150, 100);
+    age.venusLifePast()
+    expect(age.venuslife).toEqual(31);
   })
 });

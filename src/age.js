@@ -16,7 +16,7 @@ export class Age {
       this.jupiter = this.earth * 11.86
     }
     mercuryLifeExpectancy() {
-      this.mercurylife = (this.earthLifeExpectancy * 0.24) - (this.earth * 0.24)
+      this.mercurylife = (this.earthLifeExpectancy * 0.24) - (this.earth * 0.24) 
     }
     venusLifeExpectancy() {
       this.venuslife = (this.earthLifeExpectancy * 0.62) - (this.earth * 0.62)
@@ -29,20 +29,3 @@ export class Age {
     }
 
 }
-
-/*
-
-
-
-export class MercuryLifeExpect {
-  constructor (userInput, planetAge, lifeExpectancy) {
-    this.userInput = userInput;
-    this.planetAge = planetAge;
-    this.lifeExpectancy = lifeExpectancy;
-  }
-  findYearsLeft(){
-    return ((this.lifeExpectancy * this.planetAge)
-    - (this.userInput * this.planetAge))
-  }
-}
-*/

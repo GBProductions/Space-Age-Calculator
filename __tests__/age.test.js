@@ -53,4 +53,10 @@ describe('Age', () => {
     age.jupiterLifeExpectancy()
     expect(age.jupiterlife).toEqual(1186);
   })
+
+  test('should return number of years lived past Mercury life expectancy', () => {
+    const age = new Age(150, 100);
+    age.mercuryLifeExpectancy()
+    expect(age.mercurylife).toEqual(-12);
+  })
 });
